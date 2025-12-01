@@ -1,0 +1,26 @@
+[
+    {
+        "id": "land-674c5e8a1b3d4",
+        "persil_number": "124\/46",
+        "owner_name": "Siti Aminah",
+        "owner_address": "Jl. Sudirman No. 25, Jakarta Selatan",
+        "land_type": "tanah_basah",
+        "luas_m2": 450,
+        "peta_blok": "A02",
+        "notes": "Cocok untuk pertanian basah, dekat dengan irigasi",
+        "created_at": "2025-01-02 09:30:00",
+        "updated_at": "2025-01-02 09:30:00"
+    },
+    {
+        "id": "land-674c5e8a1b4e5",
+        "persil_number": "125\/47",
+        "owner_name": "Ahmad Wijaya",
+        "owner_address": "Jl. Gatot Subroto No. 5, Jakarta Barat",
+        "land_type": "tanah_kering",
+        "luas_m2": 250,
+        "peta_blok": "B01",
+        "notes": "Tanah kosong, siap dibangun",
+        "created_at": "2025-01-03 14:15:00",
+        "updated_at": "2025-01-03 14:15:00"
+    }
+]
