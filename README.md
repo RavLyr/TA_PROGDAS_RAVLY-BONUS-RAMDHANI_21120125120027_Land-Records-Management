@@ -1,12 +1,11 @@
 # 📖 Buku C Digital – Pure Data Version (Static PHP)
 
 ![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
-![TCPDF](https://img.shields.io/badge/TCPDF-PDF_Generation-red?style=for-the-badge)
 ![JSON](https://img.shields.io/badge/JSON-Data_Storage-green?style=for-the-badge)
 
 ## 📋 Deskripsi Proyek
 
-**Buku C Digital** adalah aplikasi web sederhana untuk mengelola data tanah (land records) tanpa menggunakan database. Aplikasi ini dibangun dengan **100% PHP Native** dan menggunakan file **JSON** untuk penyimpanan data.
+**Buku C Digital** adalah aplikasi web sederhana untuk mengelola data tanah (land records) tanpa menggunakan database. Aplikasi ini dibangun dengan **100% PHP Native** dan menggunakan file **JSON** untuk penyimpanan data. Sebagai Tugas Akhir praktikum Pemgrograman Dasar
 
 ### ✨ Fitur Utama
 
@@ -171,14 +170,6 @@ File `data/lands.json` menyimpan data dengan struktur berikut:
 - Konfirmasi JavaScript sebelum hapus
 - Redirect dengan pesan status
 
-### 6. Print to PDF (`print.php`)
-- Generate PDF menggunakan TCPDF
-- Format professional 1 halaman
-- Header dengan judul
-- Informasi lengkap data tanah
-- Footer dengan informasi sistem
-- Download otomatis atau preview di browser
-
 ## 🔧 Fungsi Helper (`libs/helpers.php`)
 
 | Function | Description |
@@ -203,42 +194,18 @@ File `data/lands.json` menyimpan data dengan struktur berikut:
 - Message box untuk feedback user
 - Button styles dengan warna semantik
 
-## 🔒 Keamanan
-
-- **Input Sanitization** - Semua input user di-sanitize
-- **File Locking** - Menggunakan `flock()` untuk mencegah race condition
-- **No SQL Injection** - Tidak menggunakan database
-- **XSS Prevention** - Menggunakan `htmlspecialchars()`
-- **Type Validation** - Validasi tipe data input
-
 ## 📝 Contoh Penggunaan
 
 ### Menambah Data Baru
-1. Klik tombol "➕ Tambah Data Baru"
+1. Klik tombol "Tambah Data Baru"
 2. Isi form dengan data tanah
-3. Klik "💾 Simpan Data"
+3. Klik "Simpan Data"
 4. Data akan tersimpan di `lands.json`
 
 ### Mencari Data
 1. Ketik keyword di search box
 2. Klik "🔍 Cari"
 3. Sistem akan mencari di: nomor persil, nama pemilik, peta blok
-
-### Generate PDF
-1. Klik tombol "🖨 Print" pada data yang ingin dicetak
-2. PDF akan dibuka di tab baru
-3. Download atau print langsung dari browser
-
-## 🐛 Troubleshooting
-
-### Error: "Failed to open stream"
-**Solusi:** Pastikan folder `data/` memiliki permission write (755)
-
-### PDF tidak generate
-**Solusi:** Pastikan TCPDF sudah terinstall:
-```bash
-composer require tecnickcom/tcpdf
-```
 
 ### Data tidak tersimpan
 **Solusi:** 
@@ -247,18 +214,6 @@ composer require tecnickcom/tcpdf
 
 ### CSS tidak load
 **Solusi:** Pastikan path CSS benar dan folder `public/assets/css/` ada
-
-## 📄 Lisensi
-
-Project ini dibuat untuk keperluan pembelajaran dan final project.
-
-## 👨‍💻 Developer
-
-Dikembangkan dengan ❤️ menggunakan Pure PHP
-
-## 📞 Support
-
-Jika ada pertanyaan atau issue, silakan buat issue di repository ini.
 
 ---
 
