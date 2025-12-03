@@ -1,8 +1,5 @@
 <?php
-/**
- * Helper Functions for Buku C Digital
- * Pure PHP - No Database
- */
+
 
 define('DATA_FILE', __DIR__ . '/../data/lands.json');
 

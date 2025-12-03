@@ -11,7 +11,12 @@ $repository = new LandRepository(DATA_FILE);
 $searchQuery = $_GET['q'] ?? '';
 
 if (!empty($searchQuery)) {
-    $lands = array_map(fn($data) => new Land($data), $repository->findAll());
+    $lands = array_filter(
+        array_map(fn($data) => new Land($data), $repository->findAll()),
+        fn($land) => stripos($land->getPersilNumber(), $searchQuery) !== false ||
+                     stripos($land->getOwnerName(), $searchQuery) !== false ||
+                     stripos($land->getPetaBlok(), $searchQuery) !== false
+    );
 } else {
     $lands = array_map(fn($data) => new Land($data), $repository->findAll());
 }

@@ -121,6 +121,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                                     <option value="tanah_basah" <?php echo (isset($_POST['land_type']) && $_POST['land_type'] === 'tanah_basah') ? 'selected' : ''; ?>>
                                         Tanah Basah
                                     </option>
+                                    <option value="tanah_sengketa" <?php echo (isset($_POST['land_type']) && $_POST['land_type'] === 'tanah_sengketa') ? 'selected' : ''; ?>>
+                                        Tanah Sengketa
+                                    </option>
                                 </select>
                                 <p class="form-hint">Pilih jenis tanah sesuai dengan karakteristiknya</p>
                             </div>
