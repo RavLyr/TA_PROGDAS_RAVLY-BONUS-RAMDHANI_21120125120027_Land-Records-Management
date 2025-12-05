@@ -145,6 +145,10 @@ class LandRepository {
     public function delete($id) {
         $data = $this->loadData();
         $newData = array_filter($data, fn($item) => $item['id'] !== $id);
-        $this->saveData($newData);
+        if (count($newData) < count($data)) {
+            $this->saveData($newData);
+            return true;
+        }
+        return false; // ID not found
     }
 }

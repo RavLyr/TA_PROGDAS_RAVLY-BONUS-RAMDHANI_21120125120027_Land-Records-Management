@@ -1,5 +1,5 @@
-[
-    {
+{
+    "0": {
         "id": "land-674c5e8a1b3d4",
         "persil_number": "124\/46",
         "owner_name": "Siti Aminah",
@@ -11,7 +11,7 @@
         "created_at": "2025-01-02 09:30:00",
         "updated_at": "2025-01-02 09:30:00"
     },
-    {
+    "1": {
         "id": "land-674c5e8a1b4e5",
         "persil_number": "125\/47",
         "owner_name": "Ahmad Wijaya",
@@ -23,19 +23,7 @@
         "created_at": "2025-01-03 14:15:00",
         "updated_at": "2025-01-03 14:15:00"
     },
-    {
-        "id": "land-692f8c018fc114.43376852",
-        "persil_number": "20",
-        "owner_name": "Ngarimin",
-        "owner_address": "Semarang Barat",
-        "land_type": "tanah_kering",
-        "luas_m2": "90",
-        "peta_blok": "A01",
-        "notes": "",
-        "created_at": "2025-12-03 02:01:53",
-        "updated_at": "2025-12-03 02:01:53"
-    },
-    {
+    "3": {
         "id": "land-692f8cf96d7003.20362170",
         "persil_number": "20",
         "owner_name": "mahasiswa baru",
@@ -47,16 +35,28 @@
         "created_at": "2025-12-03 02:06:01",
         "updated_at": "2025-12-03 02:06:01"
     },
-    {
-        "id": "land-692f8d639d7709.46033832",
-        "persil_number": "202",
-        "owner_name": "mahasiswa",
-        "owner_address": "asd",
-        "land_type": "tanah_sengketa",
+    "5": {
+        "id": "land-6931369ff1c7d3.94941393",
+        "persil_number": "12",
+        "owner_name": "Mahendra",
+        "owner_address": "Singosari Selatan",
+        "land_type": "tanah_kering",
         "luas_m2": "90",
-        "peta_blok": "A09",
-        "notes": "",
-        "created_at": "2025-12-03 02:07:47",
-        "updated_at": "2025-12-03 02:07:47"
+        "peta_blok": "A01",
+        "notes": "dipindah tangan dari bapak ravly ke bapak mahendra",
+        "created_at": "2025-12-04 08:22:07",
+        "updated_at": "2025-12-04 08:23:09"
+    },
+    "6": {
+        "id": "land-69313abab9a844.84261315",
+        "persil_number": "12",
+        "owner_name": "Ngarimin",
+        "owner_address": "Semarang Barat",
+        "land_type": "tanah_kering",
+        "luas_m2": "90",
+        "peta_blok": "A02",
+        "notes": "Menjual ke bapak ngarimin",
+        "created_at": "2025-12-04 08:39:38",
+        "updated_at": "2025-12-04 08:40:21"
     }
-]
+}
